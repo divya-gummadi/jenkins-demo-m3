@@ -17,7 +17,7 @@
 		<username>divyagummadi</username>
 		<password>Sc#ool1212</password>
 		<cloudhub.application.name>jenkins-demo-m3</cloudhub.application.name>
-		<environment>DEV</environment>
+		<environment>PROD</environment>
 		<business.group>LnD</business.group>
 		
 		
