@@ -21,6 +21,7 @@ http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/m
             <db:parameterized-query><![CDATA[Select * from american]]></db:parameterized-query>
         </db:select>
         <json:object-to-json-transformer doc:name="Object to JSON"/>
+        <set-property propertyName="#['Content-Type']" value="#['application/json']" doc:name="Property"/>
         <logger level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
